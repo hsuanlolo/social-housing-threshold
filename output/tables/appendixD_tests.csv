@@ -1,0 +1,9 @@
+test,stat,se,p,df
+"Pre-trend joint test, LA and region-by-year FE",3.9887414133323,,7.59106014599044e-14,35
+"Pre-trend joint test, with LA linear trends",2.62439941699328,,8.64635701919007e-07,35
+"Average post-event effect (ATT), LA and region-by-year FE",-1.22530912224163,0.472753457182951,0.0101911475459446,
+"Average post-event effect (ATT), with LA linear trends",-0.368029073337497,0.246012493286787,0.136105883220888,
+Change in slope at the event (event-time coefficients),-0.0306147952888746,0.0633937263255544,0.64067499471855,
+Change in level at the event (event-time coefficients),0.0274618434675787,0.113139750171385,0.813659697820588,
+Shift-share first stage: coefficient,0.377524825451241,0.205278768029035,0.0669146707449671,
+"Shift-share first stage: F statistic (excluded instrument, clustered)",3.38222866232447,,0.0669146707449671,

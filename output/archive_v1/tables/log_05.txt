@@ -1,0 +1,6 @@
+index threshold: prs_share11_z 
+index threshold: refusal_major_z 
+index threshold: ar_share_new_z 
+index threshold: vac_rate_2014_z 
+index threshold: dissim21_z 
+RQ3-4 done

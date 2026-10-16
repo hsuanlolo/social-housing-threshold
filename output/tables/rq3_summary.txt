@@ -1,0 +1,152 @@
+        outcome               term           est           se
+ 1:  Rent level               base  7.693580e-01 0.1794290230
+ 2:  Rent level               full  1.115995e+00 0.1451927923
+ 3:  Rent level           Earnings -3.440912e-01 0.0888557220
+ 4:  Rent level       Unemployment  1.728075e-02 0.0564112801
+ 5:  Rent level  Population growth -7.073552e-03 0.0077703690
+ 6:  Rent level            Density  7.643406e-01 0.0994337029
+ 7:  Rent level      Net additions -1.590162e-04 0.0108172900
+ 8:  Rent level  Deprivation (IMD) -7.769343e-01 0.1753564084
+ 9: Rent growth               base  2.553663e-02 0.0073811300
+10: Rent growth               full  1.059680e-02 0.0099959320
+11: Rent growth    Earnings growth -1.602039e-05 0.0000775228
+12: Rent growth       Unemployment  1.488276e-03 0.0047736500
+13: Rent growth  Population growth  3.438007e-03 0.0026321742
+14: Rent growth            Density  2.142996e-02 0.0044526012
+15: Rent growth      Net additions  1.618410e-04 0.0017935804
+16: Rent growth Initial rent level -7.455355e-03 0.0023253035
+17: Rent growth  Deprivation (IMD) -4.106886e-03 0.0080368263
+            model     within  within_se       between  between_se
+1:  level_mundlak -1.0580901 0.37821706  1.0292607183 0.146533980
+2: growth_mundlak -0.1595477 0.09672518 -0.0002378856 0.009019263
+                        moderator outcome                      group
+ 1:     London vs rest of England   level                     London
+ 2:     London vs rest of England   level            Rest of England
+ 3:     London vs rest of England  growth                     London
+ 4:     London vs rest of England  growth            Rest of England
+ 5:             Earnings (demand)   level              High earnings
+ 6:             Earnings (demand)   level               Low earnings
+ 7:             Earnings (demand)  growth              High earnings
+ 8:             Earnings (demand)  growth               Low earnings
+ 9:     Vacancy rate 2014 (slack)   level       Slack (high vacancy)
+10:     Vacancy rate 2014 (slack)   level        Tight (low vacancy)
+11:     Vacancy rate 2014 (slack)  growth       Slack (high vacancy)
+12:     Vacancy rate 2014 (slack)  growth        Tight (low vacancy)
+13:     Private-rented share 2011   level                  Large PRS
+14:     Private-rented share 2011   level                  Small PRS
+15:     Private-rented share 2011  growth                  Large PRS
+16:     Private-rented share 2011  growth                  Small PRS
+17:         Planning refusal rate   level                 Permissive
+18:         Planning refusal rate   level                Restrictive
+19:         Planning refusal rate  growth                 Permissive
+20:         Planning refusal rate  growth                Restrictive
+21: Council share of social stock   level       Mainly council-owned
+22: Council share of social stock   level Mainly housing-association
+23: Council share of social stock  growth       Mainly council-owned
+24: Council share of social stock  growth Mainly housing-association
+25:        Deprivation (IMD 2019)   level              Less deprived
+26:        Deprivation (IMD 2019)   level              More deprived
+27:        Deprivation (IMD 2019)  growth              Less deprived
+28:        Deprivation (IMD 2019)  growth              More deprived
+                        moderator outcome                      group
+           slope          se            p     p_equal LAs
+ 1:  1.452159204 0.191694372 4.717410e-13 0.026293832  32
+ 2:  0.888864377 0.186983127 3.135431e-06 0.026293832 262
+ 3:  0.006959100 0.009595934 4.688999e-01 0.652252537  32
+ 4:  0.012787437 0.012096172 2.913151e-01 0.652252537 262
+ 5:  1.284785706 0.160086380 2.460294e-14 0.049959702 147
+ 6:  0.752828717 0.244650277 2.287418e-03 0.049959702 147
+ 7:  0.006455829 0.009388342 4.922215e-01 0.346966178 147
+ 8:  0.019708899 0.013558390 1.471188e-01 0.346966178 147
+ 9:  0.451108764 0.219195763 4.047276e-02 0.003424829 147
+10:  1.168137136 0.153151997 3.374108e-13 0.003424829 147
+11:  0.015670119 0.015021740 2.977329e-01 0.698061986 147
+12:  0.010062698 0.008861590 2.570768e-01 0.698061986 147
+13:  1.215240505 0.177119974 4.066609e-11 0.312619303 147
+14:  0.975791467 0.195599268 1.043441e-06 0.312619303 147
+15:  0.014925355 0.010353041 1.504720e-01 0.092264835 147
+16: -0.007411987 0.013478804 5.828073e-01 0.092264835 147
+17:  0.789110211 0.212267179 2.409803e-04 0.013293105 147
+18:  1.476062042 0.192799762 2.803087e-13 0.013293105 147
+19:  0.007973444 0.011672377 4.950811e-01 0.939846501 147
+20:  0.008984725 0.011402267 4.313472e-01 0.939846501 147
+21:  0.997442764 0.160603195 1.804158e-09 0.208514050 132
+22:  1.339135011 0.234013630 2.593514e-08 0.208514050 162
+23:  0.004907266 0.009075916 5.891313e-01 0.364002802 132
+24:  0.016662096 0.013855326 2.301110e-01 0.364002802 162
+25:  1.367349699 0.295209341 5.458188e-06 0.080902117 147
+26:  0.756456854 0.192612471 1.071529e-04 0.080902117 147
+27:  0.017871626 0.017524498 3.086608e-01 0.829025652 147
+28:  0.013694300 0.010772842 2.046702e-01 0.829025652 147
+           slope          se            p     p_equal LAs
+                        moderator outcome                      group LAs
+ 1:     London vs rest of England   level            Rest of England 262
+ 2:     London vs rest of England   level                     London  32
+ 3:     London vs rest of England  growth            Rest of England 262
+ 4:     London vs rest of England  growth                     London  32
+ 5:             Earnings (demand)   level               Low earnings 147
+ 6:             Earnings (demand)   level              High earnings 147
+ 7:             Earnings (demand)  growth               Low earnings 147
+ 8:             Earnings (demand)  growth              High earnings 147
+ 9:     Vacancy rate 2014 (slack)   level       Slack (high vacancy) 147
+10:     Vacancy rate 2014 (slack)   level        Tight (low vacancy) 147
+11:     Vacancy rate 2014 (slack)  growth       Slack (high vacancy) 147
+12:     Vacancy rate 2014 (slack)  growth        Tight (low vacancy) 147
+13:     Private-rented share 2011   level                  Large PRS 147
+14:     Private-rented share 2011   level                  Small PRS 147
+15:     Private-rented share 2011  growth                  Large PRS 147
+16:     Private-rented share 2011  growth                  Small PRS 147
+17:         Planning refusal rate   level                 Permissive 147
+18:         Planning refusal rate   level                Restrictive 147
+19:         Planning refusal rate  growth                 Permissive 147
+20:         Planning refusal rate  growth                Restrictive 147
+21: Council share of social stock   level Mainly housing-association 162
+22: Council share of social stock   level       Mainly council-owned 132
+23: Council share of social stock  growth Mainly housing-association 162
+24: Council share of social stock  growth       Mainly council-owned 132
+25:        Deprivation (IMD 2019)   level              More deprived 147
+26:        Deprivation (IMD 2019)   level              Less deprived 147
+27:        Deprivation (IMD 2019)  growth              More deprived 147
+28:        Deprivation (IMD 2019)  growth              Less deprived 147
+                        moderator outcome                      group LAs
+       gamma     ci_lo    ci_hi         F      p_boot
+ 1: 15.38047 15.020735 15.55968 71.674540 0.200668896
+ 2: 27.69973 27.699727 27.69973 54.629749 0.277591973
+ 3: 15.72903 12.064187 18.59011 11.108248 0.177257525
+ 4: 21.02287 12.681731 33.08784  6.704689 0.110367893
+ 5: 16.05502 15.579655 16.05502 74.789839 0.137123746
+ 6: 20.43432 19.303562 20.43432 39.397828 0.491638796
+ 7: 16.42962 10.178273 23.11951  7.145168 0.525083612
+ 8: 12.80171 10.463693 19.78360  7.252979 0.157190635
+ 9: 11.54796 11.547959 11.65839 68.295487 0.133779264
+10: 15.37603 15.376031 15.37603 49.889548 0.357859532
+11: 16.42100 10.029499 21.67118  7.898898 0.494983278
+12: 15.57965 10.674961 21.74973  5.573166 0.411371237
+13: 19.39043 19.390425 19.39043 72.540175 0.167224080
+14: 15.98505 15.985053 15.98505 64.947910 0.167224080
+15: 12.88977 10.360682 23.30784  4.096347 0.779264214
+16: 16.44048 10.259645 17.01295 15.897442 0.036789298
+17: 20.91427 20.914273 20.91427 39.926057 0.454849498
+18: 15.15182 14.884299 15.15182 23.454691 0.715719064
+19: 24.87776 12.482081 24.87776  4.455489 0.729096990
+20: 14.51090 12.827022 15.87512 16.006091 0.006688963
+21: 11.78502 11.604789 11.97069 29.541083 0.682274247
+22: 15.06486 15.064863 15.06486 71.513919 0.117056856
+23: 14.46664  9.819597 19.76279  5.877800 0.648829431
+24: 15.74570 11.339888 20.90158  8.153071 0.173913043
+25: 17.11726 16.941804 18.19873 64.602507 0.153846154
+26: 14.08054  9.592605 14.94702 26.317293 0.665551839
+27: 25.46884 12.651381 26.16788  7.807974 0.424749164
+28: 12.79603 12.625758 14.93412 16.200733 0.010033445
+       gamma     ci_lo    ci_hi         F      p_boot
+    outcome    bin         se        mdd LAs
+ 1:   level   <10% 1.92938045  5.4022653  42
+ 2:   level 15-20% 1.88084945  5.2663785  75
+ 3:   level 20-25% 2.82556011  7.9115683  41
+ 4:   level 25-30% 3.02764428  8.4774040  26
+ 5:   level  >=30% 4.41222918 12.3542417  14
+ 6:  growth   <10% 0.11745253  0.3288671  42
+ 7:  growth 15-20% 0.09620366  0.2693702  75
+ 8:  growth 20-25% 0.14531354  0.4068779  41
+ 9:  growth 25-30% 0.19872509  0.5564302  26
+10:  growth  >=30% 0.20760146  0.5812841  13

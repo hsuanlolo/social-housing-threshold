@@ -1,0 +1,33 @@
+Joint test of all cohort-specific leads -2..-6 = 0 (LA+year FE; LA+region-year FE; LA trends)
+        stat            p          df1 
+3.735359e+00 1.707761e-12 3.500000e+01 
+        stat            p          df1 
+3.988741e+00 7.591060e-14 3.500000e+01 
+        stat            p          df1 
+2.624399e+00 8.646357e-07 3.500000e+01 
+
+ATT (average post-treatment effect)
+                         spec term        est        se          p
+1:               LA + year FE  ATT -0.9134548 0.5249788 0.08327305
+2:        LA + region-year FE  ATT -1.2253091 0.4727535 0.01019115
+3: LA trends + region-year FE  ATT -0.3680291 0.2460125 0.13610588
+
+Slope break in event-time coefficients (WLS on estimates, rel -6..6)
+               Estimate Std. Error   t value     Pr(>|t|)
+(Intercept) -0.27525527 0.05413345 -5.084754 6.585846e-04
+rel         -0.29134740 0.03827529 -7.611893 3.285847e-05
+post         0.02746184 0.11313975  0.242725 8.136597e-01
+rel:post    -0.03061480 0.06339373 -0.482931 6.406750e-01
+
+Number of treated LAs by cohort
+   cohort V1
+1:   2017 11
+2:   2018  8
+3:   2019 13
+4:   2020  9
+5:   2021  5
+6:   2022  8
+7:   2023  6
+8:   2024  5
+9:   2025  6
+Never-treated LAs: 148 

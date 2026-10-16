@@ -1,0 +1,31 @@
+
+\begin{table}[htbp]
+   \caption{Robustness of the stock-share specification}
+   \centering
+   \begin{tabular}{lcccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variable: & \multicolumn{4}{c}{Private rent growth (\%)}\\
+      Model:             & (1)     & (2)     & (3)           & (4)\\  
+      \midrule
+      \emph{Variables}\\
+      SH share (t-1, pp) & -0.153  &         & -0.252$^{**}$ & -0.436$^{***}$\\   
+                         & (0.103) &         & (0.109)       & (0.105)\\   
+      sh\_share\_l2      &         & -0.075  &               &   \\   
+                         &         & (0.102) &               &   \\   
+      \midrule
+      \emph{Fixed-effects}\\
+      LA                 & Yes     & Yes     & Yes           & Yes\\  
+      Region x Year      & Yes     & Yes     & Yes           & \\  
+      Year               &         &         &               & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      Observations       & 2,940   & 2,940   & 2,620         & 2,940\\  
+      R$^2$              & 0.71939 & 0.71912 & 0.72341       & 0.66100\\  
+      Within R$^2$       & 0.02458 & 0.02365 & 0.01487       & 0.08098\\  
+      \midrule \midrule
+      \multicolumn{5}{l}{\emph{Clustered (LA) standard-errors in parentheses}}\\
+      \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+   \end{tabular}
+\end{table}
+
+

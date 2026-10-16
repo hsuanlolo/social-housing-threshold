@@ -1,0 +1,174 @@
+                               Baseline            Year FE only
+Dependent Var.: Private rent growth (%) Private rent growth (%)
+                                                               
+soc2                    -0.071* (0.029)          -0.042 (0.032)
+aq2                      -0.130 (0.093)          -0.061 (0.111)
+rtb2                      0.203 (0.128)        0.427*** (0.119)
+W_soc2                                                         
+W_aq2                                                          
+W_rtb2                                                         
+Fixed-Effects:  ----------------------- -----------------------
+LA                                  Yes                     Yes
+Region x Year                       Yes                      No
+Year                                 No                     Yes
+Varying Slopes: ----------------------- -----------------------
+Year (LA)                            No                      No
+_______________ _______________________ _______________________
+S.E.: Clustered                  by: LA                  by: LA
+Observations                      2,940                   2,940
+R2                              0.72076                 0.66021
+Within R2                       0.02933                 0.07884
+
+                           Excl. London           Excl. 2020-21
+Dependent Var.: Private rent growth (%) Private rent growth (%)
+                                                               
+soc2                    -0.054. (0.029)         -0.077* (0.034)
+aq2                      -0.142 (0.112)          -0.168 (0.120)
+rtb2                      0.192 (0.124)           0.099 (0.146)
+W_soc2                                                         
+W_aq2                                                          
+W_rtb2                                                         
+Fixed-Effects:  ----------------------- -----------------------
+LA                                  Yes                     Yes
+Region x Year                       Yes                     Yes
+Year                                 No                      No
+Varying Slopes: ----------------------- -----------------------
+Year (LA)                            No                      No
+_______________ _______________________ _______________________
+S.E.: Clustered                  by: LA                  by: LA
+Observations                      2,620                   2,352
+R2                              0.72381                 0.72564
+Within R2                       0.01629                 0.02769
+
+                   Pop.-weighted (2015)        LA linear trends
+Dependent Var.: Private rent growth (%) Private rent growth (%)
+                                                               
+soc2                   -0.105** (0.036)         -0.062. (0.035)
+aq2                      -0.060 (0.109)          -0.112 (0.118)
+rtb2                     0.265. (0.155)          0.402. (0.215)
+W_soc2                                                         
+W_aq2                                                          
+W_rtb2                                                         
+Fixed-Effects:  ----------------------- -----------------------
+LA                                  Yes                     Yes
+Region x Year                       Yes                     Yes
+Year                                 No                      No
+Varying Slopes: ----------------------- -----------------------
+Year (LA)                            No                     Yes
+_______________ _______________________ _______________________
+S.E.: Clustered                  by: LA                  by: LA
+Observations                      2,940                   2,940
+R2                              0.72485                 0.76005
+Within R2                       0.03741                 0.03782
+
+                        Two-way cluster            Spatial lags Outcome: PIPR..
+Dependent Var.: Private rent growth (%) Private rent growth (%)      dlnrentlvl
+                                                                               
+soc2                    -0.071* (0.033)         -0.072* (0.030) -0.071* (0.029)
+aq2                      -0.130 (0.086)          -0.123 (0.091)  -0.131 (0.093)
+rtb2                      0.203 (0.142)           0.145 (0.129)   0.202 (0.128)
+W_soc2                                           -0.024 (0.049)                
+W_aq2                                           -0.439* (0.171)                
+W_rtb2                                            0.404 (0.253)                
+Fixed-Effects:  ----------------------- ----------------------- ---------------
+LA                                  Yes                     Yes             Yes
+Region x Year                       Yes                     Yes             Yes
+Year                                 No                      No              No
+Varying Slopes: ----------------------- ----------------------- ---------------
+Year (LA)                            No                      No              No
+_______________ _______________________ _______________________ _______________
+S.E.: Clustered  by: LA & Region x Year                  by: LA          by: LA
+Observations                      2,940                   2,940           2,940
+R2                              0.72076                 0.72200         0.72073
+Within R2                       0.02933                 0.03367         0.02932
+
+                Outcome: PRM..
+Dependent Var.:    dlnprms_all
+                              
+soc2            -0.038 (0.071)
+aq2             -0.058 (0.188)
+rtb2             0.102 (0.258)
+W_soc2                        
+W_aq2                         
+W_rtb2                        
+Fixed-Effects:  --------------
+LA                         Yes
+Region x Year              Yes
+Year                        No
+Varying Slopes: --------------
+Year (LA)                   No
+_______________ ______________
+S.E.: Clustered         by: LA
+Observations             2,352
+R2                     0.38345
+Within R2              0.00540
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+                      Share t-1 (baseline)               Share t-2
+Dependent Var.:    Private rent growth (%) Private rent growth (%)
+                                                                  
+SH share (t-1, pp)          -0.153 (0.103)                        
+sh_share_l2                                         -0.075 (0.102)
+Fixed-Effects:     ----------------------- -----------------------
+LA                                     Yes                     Yes
+Region x Year                          Yes                     Yes
+Year                                    No                      No
+__________________ _______________________ _______________________
+S.E.: Clustered                     by: LA                  by: LA
+Observations                         2,940                   2,940
+R2                                 0.71939                 0.71912
+Within R2                          0.02458                 0.02365
+
+                   Share t-1, excl. London      Share t-1, year FE
+Dependent Var.:    Private rent growth (%) Private rent growth (%)
+                                                                  
+SH share (t-1, pp)         -0.252* (0.109)       -0.436*** (0.105)
+sh_share_l2                                                       
+Fixed-Effects:     ----------------------- -----------------------
+LA                                     Yes                     Yes
+Region x Year                          Yes                      No
+Year                                    No                     Yes
+__________________ _______________________ _______________________
+S.E.: Clustered                     by: LA                  by: LA
+Observations                         2,620                   2,940
+R2                                 0.72341                 0.66100
+Within R2                          0.01487                 0.08098
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+                             v1               v2               v3
+Dependent Var.:     rent_yoy_sd      rent_yoy_sd        hp_yoy_sd
+                                                                 
+sh14             0.020* (0.010)    0.050 (0.036) -0.029** (0.010)
+dlnpop           -0.064 (0.195)   -0.087 (0.205)  -0.410* (0.182)
+dlnpay          -0.109. (0.063)  -0.112. (0.063)   -0.051 (0.065)
+unemp             0.134 (0.083)    0.126 (0.078) 0.412*** (0.074)
+netadd            0.016 (0.027)    0.019 (0.029)   0.036. (0.019)
+lvl15           1.35*** (0.222)  1.36*** (0.221)    0.130 (0.312)
+sh14 square                     -0.0007 (0.0009)                 
+Fixed-Effects:  --------------- ---------------- ----------------
+region                      Yes              Yes              Yes
+_______________ _______________ ________________ ________________
+S.E. type       Heteroske.-rob. Heterosked.-rob. Heterosked.-rob.
+Observations                294              294              294
+R2                      0.43242          0.43481          0.43794
+Within R2               0.20152          0.20488          0.17841
+
+                              v4
+Dependent Var.:        hp_yoy_sd
+                                
+sh14               0.003 (0.030)
+dlnpop           -0.434* (0.191)
+dlnpay            -0.054 (0.065)
+unemp           0.404*** (0.072)
+netadd            0.040* (0.020)
+lvl15              0.137 (0.309)
+sh14 square     -0.0007 (0.0007)
+Fixed-Effects:  ----------------
+region                       Yes
+_______________ ________________
+S.E. type       Heterosked.-rob.
+Observations                 294
+R2                       0.44085
+Within R2                0.18266
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

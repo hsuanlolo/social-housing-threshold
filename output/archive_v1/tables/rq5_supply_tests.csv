@@ -1,0 +1,4 @@
+test,est,se,p
+soc2 - aq2 (new build minus acquisition),0.0597711728752356,0.103253802672776,0.562672684511744
+sr2 - ar2 (Social Rent minus Affordable Rent new build),-0.0263067506493908,0.0604144277422176,0.663244375968847
+soc2 + rtb2 (symmetry: gain of one unit vs loss of one unit),0.132343620420983,0.123661695372603,0.28452611364365

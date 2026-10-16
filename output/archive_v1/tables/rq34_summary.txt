@@ -1,0 +1,173 @@
+=== (a) split-sample thresholds (new build regime by SH share) ===
+        moderator group n_la              model   gamma1    ci_lo    ci_hi
+ 1:   prs_share11   low  147    prs_share11:low 14.01312 13.89128 14.14282
+ 2:   prs_share11  high  147   prs_share11:high 21.90447 10.36068 23.30784
+ 3: refusal_major   low  147  refusal_major:low 21.92416 12.48208 24.87776
+ 4: refusal_major  high  147 refusal_major:high 14.20915  9.60394 16.35007
+ 5:  ar_share_new   low  147   ar_share_new:low 21.02287 10.06967 22.69518
+ 6:  ar_share_new  high  147  ar_share_new:high 20.14259 13.04328 20.14259
+ 7: vac_rate_2014   low  147  vac_rate_2014:low 20.98143 10.67496 21.74973
+ 8: vac_rate_2014  high  147 vac_rate_2014:high 14.21019 10.02950 21.67118
+ 9:      dissim21   low  147       dissim21:low 14.18715 10.63553 23.30784
+10:      dissim21  high  147      dissim21:high 13.31434 10.13331 21.47058
+11:        london   low  262         london:low 14.18757 10.18754 20.66195
+12:        london  high   32        london:high 20.94259 12.68173 33.08784
+           F1     p_boot1 gamma2 F2 p_boot2    n regimes_obs regimes_la
+ 1: 16.726169 0.003344482     NA NA      NA 1470     791/679      83/75
+ 2:  3.040498 0.742474916     NA NA      NA 1470    1176/294     121/33
+ 3:  6.002435 0.387959866     NA NA      NA 1470    1140/330     119/41
+ 4:  3.021473 0.551839465     NA NA      NA 1470    1066/404     111/47
+ 5:  7.275601 0.214046823     NA NA      NA 1470    1158/312     121/36
+ 6:  9.630652 0.193979933     NA NA      NA 1470    1250/220     127/24
+ 7:  3.776588 0.682274247     NA NA      NA 1470    1213/257     125/29
+ 8:  7.768935 0.290969900     NA NA      NA 1470     717/753      74/79
+ 9:  4.679224 0.468227425     NA NA      NA 1470     846/624      88/68
+10:  5.784057 0.461538462     NA NA      NA 1470     533/937      59/99
+11:  5.145514 0.428093645     NA NA      NA 2620   1409/1211    147/129
+12:  5.092537 0.331103679     NA NA      NA  320     168/152      18/16
+
+=== (b) index thresholds tau_i = tau0 - theta*Z_i (Z standardised) ===
+         moderator theta      tau0 theta_lo theta_hi    tau_lo   tau_hi
+1:   prs_share11_z    -4 13.460755       -6        6  9.602222 22.84001
+2: refusal_major_z     6 19.427976       -5        6 10.473802 22.02983
+3:  ar_share_new_z     3 15.062853       -6        6  9.364701 23.17280
+4: vac_rate_2014_z     2 11.261468       -6        6  9.522898 23.87782
+5:      dissim21_z    -5  9.372214       -6        6  7.332149 23.54540
+   share_boot_theta0
+1:        0.08040201
+2:        0.07537688
+3:        0.06030151
+4:        0.05527638
+5:        0.04522613
+
+=== (c) multilevel: random-slope SD on new build ===
+       grp   var1 var2       vcov     sdcor
+1     code soc2_w <NA> 0.04174926 0.2043264
+2 Residual   <NA> <NA> 2.02992114 1.4247530
+                    Estimate  Std. Error       t value
+(Intercept)     2.368693e-17 0.026276403  9.014527e-16
+soc2_w         -7.857577e-02 0.027600445 -2.846902e+00
+rtb2_w          2.376979e-01 0.100261298  2.370784e+00
+aq2_w          -9.111044e-02 0.079219615 -1.150099e+00
+dlnpop_l1_w     5.509662e-01 0.065456236  8.417321e+00
+dlnpay_l1_w    -3.466419e-03 0.005953480 -5.822509e-01
+unemp_l1_w     -8.406248e-02 0.056515583 -1.487421e+00
+netadd_pk_l1_w -2.120434e-02 0.009883149 -2.145505e+00
+
+LR test random slope vs none (chi2, approx; boundary => conservative):
+Data: W
+Models:
+lm(as.formula(fml0), W): as.formula(fml0)
+update(mm0, REML = FALSE): dlnrent_all_w ~ soc2_w + rtb2_w + aq2_w + dlnpop_l1_w + dlnpay_l1_w + 
+update(mm0, REML = FALSE):     unemp_l1_w + netadd_pk_l1_w + (0 + soc2_w | code)
+                          npar   AIC   BIC  logLik deviance  Chisq Df
+lm(as.formula(fml0), W)      9 10527 10580 -5254.3    10509          
+update(mm0, REML = FALSE)   10 10514 10574 -5247.1    10494 14.486  1
+                          Pr(>Chisq)    
+lm(as.formula(fml0), W)                 
+update(mm0, REML = FALSE)  0.0001412 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Cross-level interactions:
+                           Estimate  Std. Error      t value
+(Intercept)             0.000152917 0.026276194  0.005819602
+soc2_w                 -0.086368726 0.028797778 -2.999145523
+rtb2_w                  0.177769809 0.132140028  1.345313846
+aq2_w                  -0.083519243 0.079592975 -1.049329338
+dlnpop_l1_w             0.552332727 0.065669855  8.410749876
+dlnpay_l1_w            -0.003671121 0.005959130 -0.616049761
+unemp_l1_w             -0.087277693 0.056885218 -1.534277197
+netadd_pk_l1_w         -0.021290418 0.009918868 -2.146456336
+soc2_w:sh_share_l1_c    0.053893160 0.054460875  0.989575722
+soc2_w:prs_share11_z   -0.014513878 0.030280056 -0.479321356
+soc2_w:refusal_major_z  0.043900335 0.033009316  1.329937740
+soc2_w:ar_share_new_z   0.024910727 0.029764663  0.836922887
+soc2_w:vac_rate_2014_z  0.003279797 0.032721965  0.100232269
+soc2_w:dissim21_z      -0.015086898 0.026885539 -0.561152888
+rtb2_w:sh_share_l1_c   -0.110324712 0.185855954 -0.593603320
+rtb2_w:prs_share11_z    0.133200079 0.082559524  1.613382357
+rtb2_w:refusal_major_z -0.048657963 0.132084525 -0.368385045
+rtb2_w:ar_share_new_z   0.069028531 0.118436265  0.582832725
+rtb2_w:vac_rate_2014_z -0.252314105 0.155049592 -1.627312284
+rtb2_w:dissim21_z       0.006925625 0.110135058  0.062883023
+       grp   var1 var2       vcov     sdcor
+1     code soc2_w <NA> 0.04469369 0.2114088
+2 Residual   <NA> <NA> 2.02846268 1.4242411
+
+=== FE cross-level interactions (clustered SE) ===
+                                                      fe_int
+Dependent Var.:                      Private rent growth (%)
+                                                            
+soc2                                         -0.079* (0.033)
+rtb2                                           0.258 (0.181)
+aq2                                           -0.129 (0.094)
+Pop. growth (t-1)                           0.538*** (0.090)
+Earnings growth (t-1)                         -0.002 (0.006)
+Unemployment rate (t-1)                       -0.072 (0.071)
+Net additions per 1,000 (t-1)                -0.020. (0.012)
+soc2 x sh10                                    0.040 (0.058)
+soc2 x prs_share11_z                         -0.0006 (0.042)
+soc2 x refusal_major_z                         0.025 (0.029)
+soc2 x ar_share_new_z                          0.022 (0.027)
+soc2 x vac_rate_2014_z                         0.018 (0.033)
+soc2 x dissim21_z                             -0.019 (0.022)
+rtb2 x sh10                                   -0.241 (0.173)
+rtb2 x prs_share11_z                           0.087 (0.102)
+rtb2 x refusal_major_z                        -0.090 (0.116)
+rtb2 x ar_share_new_z                         -0.053 (0.117)
+rtb2 x vac_rate_2014_z                        -0.284 (0.175)
+rtb2 x dissim21_z                              0.039 (0.111)
+SH share (t-1, pp)                                          
+SH share (t-1, pp) x prs_share11_z                          
+SH share (t-1, pp) x refusal_major_z                        
+SH share (t-1, pp) x ar_share_new_z                         
+SH share (t-1, pp) x vac_rate_2014_z                        
+SH share (t-1, pp) x dissim21_z                             
+Fixed-Effects:                       -----------------------
+LA                                                       Yes
+Region x Year                                            Yes
+____________________________________ _______________________
+S.E.: Clustered                                       by: LA
+Observations                                           2,940
+R2                                                   0.72215
+Within R2                                            0.03418
+
+                                                      fe_lvl
+Dependent Var.:                      Private rent growth (%)
+                                                            
+soc2                                                        
+rtb2                                                        
+aq2                                                         
+Pop. growth (t-1)                           0.541*** (0.088)
+Earnings growth (t-1)                         -0.002 (0.006)
+Unemployment rate (t-1)                       -0.041 (0.073)
+Net additions per 1,000 (t-1)               -0.032** (0.011)
+soc2 x sh10                                                 
+soc2 x prs_share11_z                                        
+soc2 x refusal_major_z                                      
+soc2 x ar_share_new_z                                       
+soc2 x vac_rate_2014_z                                      
+soc2 x dissim21_z                                           
+rtb2 x sh10                                                 
+rtb2 x prs_share11_z                                        
+rtb2 x refusal_major_z                                      
+rtb2 x ar_share_new_z                                       
+rtb2 x vac_rate_2014_z                                      
+rtb2 x dissim21_z                                           
+SH share (t-1, pp)                           -0.231. (0.128)
+SH share (t-1, pp) x prs_share11_z            -0.041 (0.101)
+SH share (t-1, pp) x refusal_major_z          -0.068 (0.112)
+SH share (t-1, pp) x ar_share_new_z           -0.069 (0.097)
+SH share (t-1, pp) x vac_rate_2014_z         -0.266. (0.136)
+SH share (t-1, pp) x dissim21_z                0.041 (0.107)
+Fixed-Effects:                       -----------------------
+LA                                                       Yes
+Region x Year                                            Yes
+____________________________________ _______________________
+S.E.: Clustered                                       by: LA
+Observations                                           2,940
+R2                                                   0.72052
+Within R2                                            0.02850
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

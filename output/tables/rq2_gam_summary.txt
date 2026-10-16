@@ -1,0 +1,17 @@
+Penalised GAM shape check (edf near 1 = linear):
+                   edf   Ref.df        F p-value
+s(sh_share_l1) 5.76789 6.532019 74.04978       0
+                    edf   Ref.df        F   p-value
+s(sh_share_l1) 1.888672 2.400052 1.327436 0.3072198
+
+Linearity tests (spline deviations from linear, LA-clustered Wald):
+       outcome      stat         p
+1:  Rent level 0.7764455 0.5070182
+2: Rent growth 1.1182733 0.3402752
+
+Share ranges where the spline slope is significantly != 0 (pointwise 95%):
+                         outcome     sign        lo       hi
+1: Log private rent level (x100) positive  7.168084 38.21109
+2: Log private rent level (x100)     n.s. 11.334931 14.87675
+3:      Private rent growth (pp)     n.s.  7.173578 37.97724
+4:      Private rent growth (pp) positive 11.101562 11.30830

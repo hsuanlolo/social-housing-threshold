@@ -1,0 +1,140 @@
+                                             level_M0                level_M1
+Dependent Var.:               Log private rent (x100) Log private rent (x100)
+                                                                             
+SH share (t-1, pp)                   0.769*** (0.179)         1.28*** (0.140)
+Log median earnings (t-1)                                     123.6*** (7.85)
+Unemployment (t-1)                                             -0.168 (0.685)
+Population growth (t-1)                                        -0.120 (0.890)
+Log density (t-1)                                                            
+Net additions per 1,000 (t-1)                                                
+IMD 2019 score                                                               
+Fixed-Effects:                ----------------------- -----------------------
+Region x Year                                     Yes                     Yes
+LA                                                 No                      No
+_____________________________ _______________________ _______________________
+S.E.: Clustered                                by: LA                  by: LA
+Observations                                    3,234                   3,234
+R2                                            0.76072                 0.87021
+
+                                             level_M2                level_M3
+Dependent Var.:               Log private rent (x100) Log private rent (x100)
+                                                                             
+SH share (t-1, pp)                   0.818*** (0.129)         1.12*** (0.145)
+Log median earnings (t-1)             113.6*** (7.35)          85.3*** (9.94)
+Unemployment (t-1)                   -2.89*** (0.681)           0.179 (0.591)
+Population growth (t-1)                -0.104 (0.784)           -1.08 (0.815)
+Log density (t-1)                     6.46*** (0.776)         7.15*** (0.788)
+Net additions per 1,000 (t-1)          0.219* (0.101)          0.250* (0.110)
+IMD 2019 score                                               -1.11*** (0.194)
+Fixed-Effects:                ----------------------- -----------------------
+Region x Year                                     Yes                     Yes
+LA                                                 No                      No
+_____________________________ _______________________ _______________________
+S.E.: Clustered                                by: LA                  by: LA
+Observations                                    3,234                   3,234
+R2                                            0.89074                 0.89978
+
+                                         level_within
+Dependent Var.:               Log private rent (x100)
+                                                     
+SH share (t-1, pp)                    -1.06** (0.378)
+Log median earnings (t-1)                 1.93 (1.65)
+Unemployment (t-1)                   -0.441** (0.145)
+Population growth (t-1)               -0.322* (0.144)
+Log density (t-1)                         12.7 (8.49)
+Net additions per 1,000 (t-1)           0.015 (0.024)
+IMD 2019 score                                       
+Fixed-Effects:                -----------------------
+Region x Year                                     Yes
+LA                                                Yes
+_____________________________ _______________________
+S.E.: Clustered                                by: LA
+Observations                                    3,234
+R2                                            0.99623
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+                                            growth_M0               growth_M1
+Dependent Var.:               Private rent growth (%) Private rent growth (%)
+                                                                             
+SH share (t-1, pp)                   0.025*** (0.007)           0.009 (0.008)
+Earnings growth (t-1)                                          -0.002 (0.006)
+Unemployment (t-1)                                           0.157*** (0.039)
+Population growth (t-1)                                      0.336*** (0.069)
+Log density (t-1)                                                            
+Net additions per 1,000 (t-1)                                                
+Log rent level (t-1)                                                         
+IMD 2019 score                                                               
+Fixed-Effects:                ----------------------- -----------------------
+Region x Year                                     Yes                     Yes
+LA                                                 No                      No
+_____________________________ _______________________ _______________________
+S.E.: Clustered                                by: LA                  by: LA
+Observations                                    2,940                   2,940
+R2                                            0.66487                 0.67270
+
+                                            growth_M2               growth_M3
+Dependent Var.:               Private rent growth (%) Private rent growth (%)
+                                                                             
+SH share (t-1, pp)                      0.008 (0.008)           0.011 (0.009)
+Earnings growth (t-1)                  -0.001 (0.006)          -0.001 (0.006)
+Unemployment (t-1)                     -0.002 (0.041)           0.017 (0.049)
+Population growth (t-1)              0.538*** (0.075)        0.533*** (0.076)
+Log density (t-1)                    0.191*** (0.040)        0.199*** (0.039)
+Net additions per 1,000 (t-1)       -0.037*** (0.009)       -0.037*** (0.009)
+Log rent level (t-1)                -0.903*** (0.215)       -0.982*** (0.242)
+IMD 2019 score                                                 -0.006 (0.011)
+Fixed-Effects:                ----------------------- -----------------------
+Region x Year                                     Yes                     Yes
+LA                                                 No                      No
+_____________________________ _______________________ _______________________
+S.E.: Clustered                                by: LA                  by: LA
+Observations                                    2,940                   2,940
+R2                                            0.68187                 0.68192
+
+                                        growth_within
+Dependent Var.:               Private rent growth (%)
+                                                     
+SH share (t-1, pp)                     -0.150 (0.105)
+Earnings growth (t-1)                  -0.002 (0.006)
+Unemployment (t-1)                     -0.064 (0.072)
+Population growth (t-1)              0.472*** (0.087)
+Log density (t-1)                                    
+Net additions per 1,000 (t-1)                        
+Log rent level (t-1)                                 
+IMD 2019 score                                       
+Fixed-Effects:                -----------------------
+Region x Year                                     Yes
+LA                                                Yes
+_____________________________ _______________________
+S.E.: Clustered                                by: LA
+Observations                                    2,940
+R2                                            0.71817
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+                                            aff               ld
+Dependent Var.:                     rent_to_pay             cumg
+                                                                
+SH share (t-1, pp)             0.439*** (0.057)                 
+Unemployment (t-1)               -0.004 (0.210)                 
+Population growth (t-1)         -0.835* (0.370)                 
+Log density (t-1)               2.27*** (0.274)                 
+Net additions per 1,000 (t-1)    0.105* (0.043)                 
+IMD 2019 score                -0.317*** (0.050)  -0.027* (0.013)
+sh14                                              0.016. (0.008)
+dlnpop                                          0.486*** (0.140)
+dlnpay                                             0.006 (0.052)
+unemp                                             0.159. (0.083)
+netadd                                           -0.036* (0.016)
+lvl15                                           -1.18*** (0.241)
+dens15                                          0.182*** (0.040)
+Fixed-Effects:                ----------------- ----------------
+Region x Year                               Yes               No
+region                                       No              Yes
+_____________________________ _________________ ________________
+S.E. type                                by: LA Heterosked.-rob.
+Observations                              3,234              294
+R2                                      0.77994          0.41023
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Within-LA SD of SH share: 0.433 

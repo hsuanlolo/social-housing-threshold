@@ -1,0 +1,67 @@
+
+\begin{table}[htbp]
+   \caption{RQ1: shift-share IV, long differences and correlated random effects}
+   \centering
+   \begin{tabular}{lccccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variables: & Social/affordable rent new build per 1,000 & Private rent growth (\%) & \multicolumn{2}{c}{cumg} & Private rent growth (\%)\\
+      Model:                                     & (1)           & (2)          & (3)            & (4)            & (5)\\  
+      \midrule
+      \emph{Variables}\\
+      bartik\_pk                                 & 0.378$^{*}$   &              &                &                &   \\   
+                                                 & (0.205)       &              &                &                &   \\   
+      Pop. growth (t-1)                          & 0.095$^{**}$  & 1.01$^{***}$ &                &                & 0.543$^{***}$\\   
+                                                 & (0.039)       & (0.152)      &                &                & (0.089)\\   
+      Earnings growth (t-1)                      & 0.0003        & -0.003       &                &                & -0.002\\   
+                                                 & (0.003)       & (0.007)      &                &                & (0.006)\\   
+      Unemployment rate (t-1)                    & 0.004         & -0.101       &                &                & -0.053\\   
+                                                 & (0.031)       & (0.070)      &                &                & (0.073)\\   
+      Net additions per 1,000 (t-1)              & 0.061$^{***}$ & -0.007       &                &                & -0.033$^{***}$\\   
+                                                 & (0.009)       & (0.087)      &                &                & (0.011)\\   
+      Social/affordable rent new build per 1,000 &               & -0.918       &                &                &   \\   
+                                                 &               & (1.35)       &                &                &   \\   
+      sh14                                       &               &              & 0.014$^{**}$   & 0.010          &   \\   
+                                                 &               &              & (0.007)        & (0.006)        &   \\   
+      dlnpop                                     &               &              & 0.690$^{***}$  & 0.628$^{***}$  &   \\   
+                                                 &               &              & (0.132)        & (0.124)        &   \\   
+      dlnpay                                     &               &              & 0.004          & -0.008         &   \\   
+                                                 &               &              & (0.056)        & (0.051)        &   \\   
+      unemp                                      &               &              & 0.121$^{**}$   & 0.119$^{**}$   &   \\   
+                                                 &               &              & (0.053)        & (0.051)        &   \\   
+      netadd                                     &               &              & -0.067$^{***}$ & -0.074$^{***}$ &   \\   
+                                                 &               &              & (0.014)        & (0.013)        &   \\   
+      lvl15                                      &               &              & -0.565$^{***}$ & -1.13$^{***}$  &   \\   
+                                                 &               &              & (0.197)        & (0.203)        &   \\   
+      prs\_share11                               &               &              &                & 0.025$^{***}$  &   \\   
+                                                 &               &              &                & (0.008)        &   \\   
+      vac14                                      &               &              &                & -0.351$^{***}$ &   \\   
+                                                 &               &              &                & (0.055)        &   \\   
+      SH share (t-1, pp)                         &               &              &                &                & -0.153\\   
+                                                 &               &              &                &                & (0.103)\\   
+      sh\_share\_l1\_bar                         &               &              &                &                & 0.158\\   
+                                                 &               &              &                &                & (0.103)\\   
+      dlnpop\_l1\_bar                            &               &              &                &                & 0.149\\   
+                                                 &               &              &                &                & (0.153)\\   
+      dlnpay\_l1\_bar                            &               &              &                &                & 0.024\\   
+                                                 &               &              &                &                & (0.058)\\   
+      unemp\_l1\_bar                             &               &              &                &                & 0.233$^{**}$\\   
+                                                 &               &              &                &                & (0.095)\\   
+      netadd\_pk\_l1\_bar                        &               &              &                &                & -0.034$^{**}$\\   
+                                                 &               &              &                &                & (0.017)\\   
+      \midrule
+      \emph{Fixed-effects}\\
+      LA                                         & Yes           & Yes          &                &                & \\  
+      Year                                       & Yes           & Yes          &                &                & \\  
+      region                                     &               &              & Yes            & Yes            & \\  
+      Region x Year                              &               &              &                &                & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      Observations                               & 2,940         & 2,940        & 294            & 294            & 2,940\\  
+      R$^2$                                      & 0.47821       & 0.57888      & 0.36926        & 0.45340        & 0.68022\\  
+      Within R$^2$                               & 0.05556       & -0.14166     & 0.24054        & 0.34184        & 0.05264\\  
+      \midrule \midrule
+      \multicolumn{6}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+   \end{tabular}
+\end{table}
+
+

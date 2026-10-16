@@ -1,0 +1,27 @@
+                            moderator term          est         se          p
+ 1:       Private-rented share (2011) soc2 -0.006231852 0.03688380 0.86594545
+ 2:       Private-rented share (2011) rtb2  0.042679957 0.09426592 0.65105571
+ 3:             Planning refusal rate soc2  0.010818137 0.02416705 0.65474380
+ 4:             Planning refusal rate rtb2  0.023311895 0.11133735 0.83429655
+ 5: Affordable Rent share of new lets soc2  0.021301957 0.02803873 0.44802478
+ 6: Affordable Rent share of new lets rtb2 -0.088043392 0.08547983 0.30386406
+ 7:               Vacancy rate (2014) soc2  0.009830985 0.03222661 0.76053854
+ 8:               Vacancy rate (2014) rtb2 -0.241469034 0.11049240 0.02965194
+ 9:      Social housing concentration soc2 -0.019441970 0.02028286 0.33857982
+10:      Social housing concentration rtb2 -0.032791321 0.07774053 0.67347689
+11:                   SH share (2014) soc2 -0.003376174 0.02637871 0.89824580
+12:                   SH share (2014) rtb2 -0.042149901 0.08112069 0.60373821
+              prs_share11 refusal_major ar_share_new vac_rate_2014 dissim21
+prs_share11          1.00         -0.12        -0.36         -0.08     0.01
+refusal_major       -0.12          1.00        -0.09         -0.28    -0.07
+ar_share_new        -0.36         -0.09         1.00          0.41     0.06
+vac_rate_2014       -0.08         -0.28         0.41          1.00     0.26
+dissim21             0.01         -0.07         0.06          0.26     1.00
+sh_share_2014        0.39         -0.51        -0.22         -0.06    -0.08
+              sh_share_2014
+prs_share11            0.39
+refusal_major         -0.51
+ar_share_new          -0.22
+vac_rate_2014         -0.06
+dissim21              -0.08
+sh_share_2014          1.00

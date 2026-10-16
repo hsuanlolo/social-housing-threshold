@@ -1,0 +1,5 @@
+sh_share_l1: within SD 0.433, between SD 6.049
+soc_nb_pk: within SD 0.891, between SD 0.768
+rtb_pk: within SD 0.197, between SD 0.483
+aq_pk: within SD 0.238, between SD 0.147
+dlnrent_all: within SD 2.652, between SD 0.671

@@ -1,0 +1,20 @@
+Variable,mean,std,10%,50%,90%,min,max
+"Private rent growth, PIPR (% per year)",3.79,2.74,0.8,3.34,7.54,-8.09,24.65
+"Social housing share of stock, t-1 (%)",15.74,6.06,9.62,14.08,24.34,5.32,42.77
+  of which council-owned (%),5.77,6.52,0.0,4.13,15.26,0.0,29.84
+  of which housing-association-owned (%),9.98,5.52,3.62,9.26,17.18,1.48,28.4
+"Social/affordable rent new build per 1,000 dwellings",1.31,1.18,0.15,1.01,2.88,0.0,8.6
+"  Social Rent new build per 1,000",0.34,0.65,0.0,0.04,1.06,0.0,5.48
+"  Affordable Rent new build per 1,000",0.97,0.99,0.0,0.69,2.24,0.0,7.13
+"Rental acquisitions per 1,000 dwellings",0.14,0.28,0.0,0.02,0.39,0.0,3.86
+"Right to Buy sales per 1,000 dwellings",0.35,0.52,0.0,0.12,1.06,0.0,3.41
+"Population growth, t-1 (%)",0.74,0.71,-0.08,0.69,1.65,-2.44,4.67
+"Median FT earnings growth, t-1 (%)",3.18,5.1,-2.66,3.08,9.37,-25.83,28.48
+"Unemployment rate, t-1 (%)",4.04,1.32,2.6,3.8,5.9,1.5,11.0
+"Net additional dwellings per 1,000, t-1",9.27,5.06,3.79,8.36,15.77,-1.48,46.13
+"Vacancy rate, t-1 (%)",2.62,0.73,1.78,2.54,3.5,0.53,6.84
+"House price growth, UK HPI (% per year)",3.62,3.87,-0.93,3.09,9.15,-9.84,19.11
+"Private-rented share of households, 2011 (%)",15.91,5.46,10.95,14.17,23.55,7.39,39.66
+"Major residential refusal rate, 1979-2013 (%)",26.18,9.0,15.1,25.82,37.68,6.25,51.72
+Affordable Rent share of new social lets (%),72.03,21.08,37.64,78.12,94.55,5.92,100.0
+"Dissimilarity index, social vs other households (0-100)",40.76,6.42,32.72,40.94,48.85,23.18,55.94

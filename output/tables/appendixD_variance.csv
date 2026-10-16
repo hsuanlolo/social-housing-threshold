@@ -1,0 +1,5 @@
+var,label,within_sd,between_sd
+sh_share_l1,"SH share, t-1 (pp)",0.432624388824918,6.04898887170488
+soc_nb_pk,"Social/affordable new build per 1,000",0.891295540327673,0.768399182012247
+rtb_pk,"Right to Buy sales per 1,000",0.197305939849885,0.48319282426276
+dlnrent_all,Private rent growth (%),2.65193160980191,0.671267603291546

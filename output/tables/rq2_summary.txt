@@ -1,0 +1,133 @@
+    shbin LAs  obs     london
+1: 10-15% 145 1349 0.06968125
+2:   <10%  42  367 0.04087193
+3: 15-20%  75  622 0.06591640
+4: 20-25%  41  334 0.18862275
+5: 25-30%  26  176 0.21022727
+6:  >=30%  13   92 0.76086957
+                                            level_raw              level_full
+Dependent Var.:               Log private rent (x100) Log private rent (x100)
+                                                                             
+shbin = <10%                             -4.07 (3.05)           -4.57* (1.93)
+shbin = 15-20%                          -0.991 (2.73)            0.298 (1.88)
+shbin = 20-25%                           7.08. (4.11)          9.89*** (2.83)
+shbin = 25-30%                           9.07* (4.10)          14.9*** (3.03)
+shbin = >=30%                          19.7*** (5.92)          21.6*** (4.41)
+Log median earnings (t-1)                                      87.1*** (10.0)
+Unemployment (t-1)                                              0.046 (0.598)
+Population growth (t-1)                                        -0.960 (0.802)
+Log density (t-1)                                             7.49*** (0.844)
+Net additions per 1,000 (t-1)                                 0.293** (0.105)
+IMD 2019 score                                               -1.00*** (0.191)
+Earnings growth (t-1)                                                        
+Log rent level (t-1)                                                         
+Fixed-Effects:                ----------------------- -----------------------
+Region x Year                                     Yes                     Yes
+_____________________________ _______________________ _______________________
+S.E.: Clustered                                by: LA                  by: LA
+Observations                                    3,234                   3,234
+R2                                            0.76222                 0.89919
+
+                                           growth_raw             growth_full
+Dependent Var.:               Private rent growth (%) Private rent growth (%)
+                                                                             
+shbin = <10%                           -0.186 (0.129)         -0.237* (0.117)
+shbin = 15-20%                         0.137. (0.082)          -0.090 (0.096)
+shbin = 20-25%                         0.317* (0.129)           0.009 (0.145)
+shbin = 25-30%                        0.512** (0.157)           0.156 (0.199)
+shbin = >=30%                           0.232 (0.221)           0.071 (0.208)
+Log median earnings (t-1)                                                    
+Unemployment (t-1)                                              0.009 (0.050)
+Population growth (t-1)                                      0.531*** (0.075)
+Log density (t-1)                                            0.217*** (0.041)
+Net additions per 1,000 (t-1)                               -0.036*** (0.009)
+IMD 2019 score                                                 -0.005 (0.011)
+Earnings growth (t-1)                                          -0.002 (0.006)
+Log rent level (t-1)                                         -1.02*** (0.239)
+Fixed-Effects:                ----------------------- -----------------------
+Region x Year                                     Yes                     Yes
+_____________________________ _______________________ _______________________
+S.E.: Clustered                                by: LA                  by: LA
+Observations                                    2,940                   2,940
+R2                                            0.66579                 0.68270
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+      outcome                    model   gamma1    ci_lo    ci_hi       F1
+1  Rent level Threshold (slope + jump) 15.29008 15.06908 15.48539 47.54694
+2 Rent growth Threshold (slope + jump) 15.64644 10.00108 22.12689 10.46535
+    p_boot1   gamma2        F2   p_boot2    n regimes_obs regimes_la
+1 0.3767535 11.75901 51.983560 0.1222445 3234   1941/1293    183/124
+2 0.2184369 12.75690  5.171508 0.4368737 2940   1838/1102    190/118
+       outcome             model    gamma     ci_lo    ci_hi         F
+1:  Rent level Kink (continuous) 16.88777 15.290077 19.62818 17.007213
+2: Rent growth Kink (continuous) 13.77994  9.620638 24.33759  5.411738
+      p_boot slope_below   se_below   slope_above    se_above
+1: 0.3867735  0.78016303 0.28573110  1.3190851494 0.210431167
+2: 0.1823647  0.04934528 0.02272271 -0.0006901652 0.009324226
+                                                                                 fi
+Dependent Var.:                                             Private rent growth (%)
+                                                                                   
+Social/affordable new build (2-yr, per 1,000) x iv = <12%           -0.114* (0.047)
+Social/affordable new build (2-yr, per 1,000) x iv = 12-16%          -0.052 (0.040)
+Social/affordable new build (2-yr, per 1,000) x iv = 16-22%           0.003 (0.051)
+Social/affordable new build (2-yr, per 1,000) x iv = >=22%          -0.138. (0.076)
+Right to Buy sales (2-yr, per 1,000) x iv = <12%                      0.291 (0.387)
+Right to Buy sales (2-yr, per 1,000) x iv = 12-16%                  0.761** (0.261)
+Right to Buy sales (2-yr, per 1,000) x iv = 16-22%                    0.207 (0.161)
+Right to Buy sales (2-yr, per 1,000) x iv = >=22%                     0.126 (0.148)
+Earnings growth (t-1)                                                -0.002 (0.006)
+Unemployment (t-1)                                                   -0.069 (0.073)
+Population growth (t-1)                                            0.544*** (0.088)
+Net additions per 1,000 (t-1)                                       -0.019. (0.012)
+Rental acquisitions (2-yr, per 1,000)                                -0.115 (0.093)
+Social/affordable new build (2-yr, per 1,000)                                      
+Right to Buy sales (2-yr, per 1,000)                                               
+Fixed-Effects:                                              -----------------------
+LA                                                                              Yes
+Region x Year                                                                   Yes
+________________________________________                    _______________________
+S.E.: Clustered                                                              by: LA
+Observations                                                                  2,940
+R2                                                                          0.72225
+
+                                                                               flin
+Dependent Var.:                                             Private rent growth (%)
+                                                                                   
+Social/affordable new build (2-yr, per 1,000) x iv = <12%                          
+Social/affordable new build (2-yr, per 1,000) x iv = 12-16%                        
+Social/affordable new build (2-yr, per 1,000) x iv = 16-22%                        
+Social/affordable new build (2-yr, per 1,000) x iv = >=22%                         
+Right to Buy sales (2-yr, per 1,000) x iv = <12%                                   
+Right to Buy sales (2-yr, per 1,000) x iv = 12-16%                                 
+Right to Buy sales (2-yr, per 1,000) x iv = 16-22%                                 
+Right to Buy sales (2-yr, per 1,000) x iv = >=22%                                  
+Earnings growth (t-1)                                                -0.002 (0.006)
+Unemployment (t-1)                                                   -0.080 (0.072)
+Population growth (t-1)                                            0.539*** (0.088)
+Net additions per 1,000 (t-1)                                       -0.020. (0.012)
+Rental acquisitions (2-yr, per 1,000)                                -0.130 (0.093)
+Social/affordable new build (2-yr, per 1,000)                       -0.071* (0.029)
+Right to Buy sales (2-yr, per 1,000)                                  0.203 (0.128)
+Fixed-Effects:                                              -----------------------
+LA                                                                              Yes
+Region x Year                                                                   Yes
+________________________________________                    _______________________
+S.E.: Clustered                                                              by: LA
+Observations                                                                  2,940
+R2                                                                          0.72076
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+                                      test     stat         p
+1: New-build effect equal across intervals 1.418715 0.2353314
+2:       RTB effect equal across intervals 1.984490 0.1141449
+       iv LAs mean_soc2 mean_rtb2
+1:   <12%  85  2.343221 0.2584150
+2: 12-16% 120  2.867203 0.4545530
+3: 16-22%  74  2.589649 0.9944708
+4:  >=22%  48  2.782999 1.9340643
+                          model   gamma1     ci_lo    ci_hi       F1   p_boot1
+1 New build, regime by SH share 14.20915 13.070396 22.12689 8.585283 0.1743487
+2       RTB, regime by SH share 16.07436  9.620638 24.33759 7.829004 0.2885772
+    gamma2        F2    p_boot2    n   regimes_obs regimes_la
+1 22.12689 11.217935 0.02805611 2940 1507/1029/404 157/117/45
+2 12.21404  3.626045 0.40280561 2940     1911/1029    195/109

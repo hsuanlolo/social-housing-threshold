@@ -1,0 +1,168 @@
+                                                                a1
+Dependent Var.:                            Private rent growth (%)
+                                                                  
+soc2                                               -0.071* (0.029)
+aq2                                                 -0.130 (0.093)
+rtb2                                                 0.203 (0.128)
+Pop. growth (t-1)                                 0.539*** (0.088)
+Earnings growth (t-1)                               -0.002 (0.006)
+Unemployment rate (t-1)                             -0.080 (0.072)
+Net additions per 1,000 (t-1)                      -0.020. (0.012)
+sr2                                                               
+ar2                                                               
+Social/affordable rent new build per 1,000                        
+soc_l1                                                            
+Rental acquisitions per 1,000                                     
+Right to Buy sales per 1,000                                      
+soc_l2                                                            
+Fixed-Effects:                             -----------------------
+LA                                                             Yes
+Region x Year                                                  Yes
+________________________________________   _______________________
+S.E.: Clustered                                             by: LA
+Observations                                                 2,940
+R2                                                         0.72076
+Within R2                                                  0.02933
+
+                                                                a2
+Dependent Var.:                            Private rent growth (%)
+                                                                  
+soc2                                                              
+aq2                                                 -0.130 (0.093)
+rtb2                                                 0.202 (0.128)
+Pop. growth (t-1)                                 0.539*** (0.088)
+Earnings growth (t-1)                               -0.002 (0.006)
+Unemployment rate (t-1)                             -0.080 (0.072)
+Net additions per 1,000 (t-1)                      -0.021. (0.012)
+sr2                                                 -0.091 (0.057)
+ar2                                                -0.064* (0.031)
+Social/affordable rent new build per 1,000                        
+soc_l1                                                            
+Rental acquisitions per 1,000                                     
+Right to Buy sales per 1,000                                      
+soc_l2                                                            
+Fixed-Effects:                             -----------------------
+LA                                                             Yes
+Region x Year                                                  Yes
+________________________________________   _______________________
+S.E.: Clustered                                             by: LA
+Observations                                                 2,940
+R2                                                         0.72078
+Within R2                                                  0.02942
+
+                                                       c1                c2
+Dependent Var.:                                   dlnwait     priv_compl_pk
+                                                                           
+soc2                                                                       
+aq2                                                                        
+rtb2                                                                       
+Pop. growth (t-1)                          -0.257 (0.981)   0.270** (0.104)
+Earnings growth (t-1)                      -0.085 (0.093)    -0.001 (0.007)
+Unemployment rate (t-1)                     0.791 (0.893)     0.040 (0.090)
+Net additions per 1,000 (t-1)              0.344* (0.155)  0.195*** (0.025)
+sr2                                                                        
+ar2                                                                        
+Social/affordable rent new build per 1,000 -1.14* (0.528)  0.446*** (0.052)
+soc_l1                                     -0.036 (0.596)    -0.030 (0.056)
+Rental acquisitions per 1,000                3.01* (1.50) -0.549*** (0.153)
+Right to Buy sales per 1,000                  2.46 (2.46)    -0.215 (0.306)
+soc_l2                                                        0.025 (0.051)
+Fixed-Effects:                             -------------- -----------------
+LA                                                    Yes               Yes
+Region x Year                                         Yes               Yes
+________________________________________   ______________ _________________
+S.E.: Clustered                                    by: LA            by: LA
+Observations                                        2,882             2,940
+R2                                                0.13145           0.71892
+Within R2                                         0.00540           0.17336
+
+                                                         c3               c4
+Dependent Var.:                               netadd_pk_now            dlnhp
+                                                                            
+soc2                                                           0.035 (0.038)
+aq2                                                           -0.003 (0.093)
+rtb2                                                          0.314. (0.161)
+Pop. growth (t-1)                            0.309. (0.170) 0.485*** (0.106)
+Earnings growth (t-1)                         0.013 (0.011)  0.018** (0.007)
+Unemployment rate (t-1)                      -0.052 (0.133)  0.228** (0.073)
+Net additions per 1,000 (t-1)              0.274*** (0.044) -0.037** (0.014)
+sr2                                                                         
+ar2                                                                         
+Social/affordable rent new build per 1,000  1.13*** (0.108)                 
+soc_l1                                       -0.009 (0.075)                 
+Rental acquisitions per 1,000                -0.322 (0.322)                 
+Right to Buy sales per 1,000                  0.182 (0.374)                 
+soc_l2                                        0.031 (0.093)                 
+Fixed-Effects:                             ---------------- ----------------
+LA                                                      Yes              Yes
+Region x Year                                           Yes              Yes
+________________________________________   ________________ ________________
+S.E.: Clustered                                      by: LA           by: LA
+Observations                                          2,940            2,940
+R2                                                  0.71027          0.81121
+Within R2                                           0.22353          0.02564
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+                                                           test         est
+1:                     soc2 - aq2 (new build minus acquisition)  0.05977117
+2:      sr2 - ar2 (Social Rent minus Affordable Rent new build) -0.02630675
+3: soc2 + rtb2 (symmetry: gain of one unit vs loss of one unit)  0.13234362
+           se         p
+1: 0.10325380 0.5626727
+2: 0.06041443 0.6632444
+3: 0.12366170 0.2845261
+            segment term         est         se          p
+ 1:           1 bed soc2 -0.06813380 0.02895337 0.01927217
+ 2:           1 bed  aq2 -0.12176617 0.09240979 0.18864148
+ 3:           1 bed rtb2  0.20945710 0.12743857 0.10133295
+ 4:           2 bed soc2 -0.07038151 0.02883522 0.01524622
+ 5:           2 bed  aq2 -0.12341400 0.09251340 0.18323579
+ 6:           2 bed rtb2  0.19000901 0.12807798 0.13900547
+ 7:           3 bed soc2 -0.07163903 0.02869365 0.01308515
+ 8:           3 bed  aq2 -0.11830198 0.09158124 0.19745453
+ 9:           3 bed rtb2  0.19833862 0.12675984 0.11873727
+10:          4+ bed soc2 -0.07297281 0.02922036 0.01306200
+11:          4+ bed  aq2 -0.12579806 0.09147387 0.17010920
+12:          4+ bed rtb2  0.22752591 0.12852491 0.07771928
+13: Flat/maisonette soc2 -0.07214763 0.02887064 0.01300194
+14: Flat/maisonette  aq2 -0.12876571 0.09294572 0.16698818
+15: Flat/maisonette rtb2  0.20125915 0.12704423 0.11423467
+16:        Terraced soc2 -0.07096430 0.02888665 0.01460392
+17:        Terraced  aq2 -0.13613306 0.09305801 0.14457100
+18:        Terraced rtb2  0.19877276 0.12795966 0.12140664
+19:   Semi-detached soc2 -0.06974062 0.02941436 0.01838823
+20:   Semi-detached  aq2 -0.12892608 0.09524924 0.17691830
+21:   Semi-detached rtb2  0.21812185 0.13039301 0.09543338
+22:        Detached soc2 -0.06665756 0.02952791 0.02471658
+23:        Detached  aq2 -0.12445961 0.09639668 0.19768004
+24:        Detached rtb2  0.20525605 0.13073531 0.11749150
+            segment term         est         se          p
+               Estimate  Std. Error    t value   Pr(>|t|)
+soc2       -0.072972812 0.029218536 -2.4974835 0.01305638
+aq2        -0.125798060 0.091468159 -1.3753208 0.17008262
+rtb2        0.227525905 0.128516886  1.7703970 0.07770083
+soc2:small  0.003715158 0.002763621  1.3443081 0.17988865
+aq2:small   0.003207974 0.011864693  0.2703799 0.78705837
+rtb2:small -0.027792854 0.014252306 -1.9500602 0.05212245
+
+=== PRMS direct segment rents ===
+    segment term         est         se          p    n
+ 1:   1 bed soc2 -0.15401545 0.07388869 0.03798744 2352
+ 2:   1 bed  aq2  0.25723146 0.17759376 0.14856716 2352
+ 3:   1 bed rtb2  0.22595600 0.29903608 0.45048737 2352
+ 4:   2 bed soc2 -0.14877084 0.05860136 0.01164423 2352
+ 5:   2 bed  aq2  0.26204307 0.17792519 0.14188617 2352
+ 6:   2 bed rtb2  0.20058708 0.25479570 0.43177378 2352
+ 7:   3 bed soc2 -0.06535752 0.06294108 0.29994368 2352
+ 8:   3 bed  aq2  0.13158638 0.21085612 0.53307528 2352
+ 9:   3 bed rtb2  0.03826237 0.32102426 0.90520777 2352
+10:  4+ bed soc2 -0.01710294 0.14028487 0.90304929 2349
+11:  4+ bed  aq2 -0.45255464 0.42670877 0.28975868 2349
+12:  4+ bed rtb2  1.06926503 0.99451579 0.28318701 2349
+              Estimate Std. Error    t value  Pr(>|t|)
+soc2       -0.01710294  0.1402719 -0.1219271 0.9030403
+aq2        -0.45255464  0.4266692 -1.0606687 0.2897140
+rtb2        1.06926503  0.9944235  1.0752612 0.2831424
+soc2:small -0.13335999  0.1395494 -0.9556471 0.3400383
+aq2:small   0.71265942  0.4448108  1.6021632 0.1101970
+rtb2:small -0.85947114  0.9651449 -0.8905100 0.3739227

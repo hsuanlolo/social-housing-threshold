@@ -1,0 +1,79 @@
+                                                    model   gamma1     ci_lo
+1                             L: level (x = q = SH share) 22.12689  9.620638
+2                  F: new build + RTB, regime by SH share 14.20915 10.295108
+3                  F1: new build only, regime by SH share 14.20915 13.070396
+4                        F2: RTB only, regime by SH share 16.07436  9.620638
+5 F1c: new build only, regime by Census 2021 social share 14.00505 10.088690
+6       F2c: RTB only, regime by Census 2021 social share 14.26098 10.088690
+7                      X: long difference (cross-section) 16.76585 10.308097
+     ci_hi       F1   p_boot1   gamma2        F2    p_boot2    n   regimes_obs
+1 24.33759 7.147349 0.4649299 13.07040  6.190972 0.23647295 2940      2536/404
+2 22.69518 9.869949 0.3887776 22.12689 14.539507 0.03406814 2940 1507/1029/404
+3 22.12689 8.585283 0.1743487 22.12689 11.217935 0.02805611 2940 1507/1029/404
+4 24.33759 7.829004 0.2885772 12.21404  3.626045 0.40280561 2940     1911/1029
+5 25.09466 3.487509 0.6092184 14.97782  4.445796 0.15030060 2940     1400/1540
+6 25.09466 5.029781 0.2464930 12.25404  2.622619 0.28256513 2940     1470/1470
+7 22.53540 5.507284 0.4454454       NA        NA         NA  294          <NA>
+  regimes_la
+1     258/45
+2 157/117/45
+3 157/117/45
+4    195/109
+5    140/154
+6    147/147
+7       <NA>
+                                               hL$fit                  hF$fit
+Dependent Var.:               Private rent growth (%) Private rent growth (%)
+                                                                             
+sh_share_l1_r1                         -0.088 (0.105)                        
+sh_share_l1_r2                         -0.137 (0.102)                        
+Pop. growth (t-1)                    0.538*** (0.089)        0.547*** (0.087)
+Earnings growth (t-1)                  -0.002 (0.006)          -0.002 (0.006)
+Unemployment rate (t-1)                -0.057 (0.073)          -0.072 (0.073)
+Net additions per 1,000 (t-1)        -0.032** (0.011)          -0.018 (0.012)
+soc2_r1                                                     -0.125*** (0.031)
+rtb2_r1                                                        0.579* (0.225)
+soc2_r2                                                         0.047 (0.042)
+rtb2_r2                                                        0.325. (0.169)
+soc2_r3                                                       -0.134. (0.072)
+rtb2_r3                                                         0.119 (0.144)
+aq2                                                            -0.115 (0.093)
+rtb2                                                                         
+soc2                                                                         
+Fixed-Effects:                ----------------------- -----------------------
+LA                                                Yes                     Yes
+Region x Year                                     Yes                     Yes
+_____________________________ _______________________ _______________________
+S.E.: Clustered                                by: LA                  by: LA
+Observations                                    2,940                   2,940
+R2                                            0.72017                 0.72342
+Within R2                                     0.02730                 0.03857
+
+                                              hFs$fit                 hFr$fit
+Dependent Var.:               Private rent growth (%) Private rent growth (%)
+                                                                             
+sh_share_l1_r1                                                               
+sh_share_l1_r2                                                               
+Pop. growth (t-1)                    0.545*** (0.088)        0.544*** (0.088)
+Earnings growth (t-1)                  -0.002 (0.006)          -0.002 (0.006)
+Unemployment rate (t-1)                -0.075 (0.073)          -0.075 (0.072)
+Net additions per 1,000 (t-1)          -0.019 (0.012)          -0.019 (0.012)
+soc2_r1                             -0.120*** (0.031)                        
+rtb2_r1                                                       0.732** (0.227)
+soc2_r2                                 0.045 (0.040)                        
+rtb2_r2                                                         0.150 (0.135)
+soc2_r3                               -0.141. (0.073)                        
+rtb2_r3                                                                      
+aq2                                    -0.111 (0.092)          -0.124 (0.093)
+rtb2                                    0.200 (0.128)                        
+soc2                                                          -0.071* (0.029)
+Fixed-Effects:                ----------------------- -----------------------
+LA                                                Yes                     Yes
+Region x Year                                     Yes                     Yes
+_____________________________ _______________________ _______________________
+S.E.: Clustered                                by: LA                  by: LA
+Observations                                    2,940                   2,940
+R2                                            0.72292                 0.72161
+Within R2                                     0.03683                 0.03231
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1

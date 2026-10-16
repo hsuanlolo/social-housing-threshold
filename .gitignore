@@ -1,0 +1,12 @@
+# Raw downloads are public (Open Government Licence) and re-created by code/01_download.py (~140 MB)
+data/raw/
+data/interim/
+# Large R binary objects
+*.rds
+# OS / editor / temp
+.DS_Store
+.Rhistory
+.RData
+__pycache__/
+paper/_docx_src.md
+~$*

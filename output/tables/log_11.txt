@@ -1,0 +1,2 @@
+level N = 3234  growth N = 2940 
+RQ2 done
